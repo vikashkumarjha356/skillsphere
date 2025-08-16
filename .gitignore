@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.cache/
+coverage/
+
+# IDE / Editor stuff
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Runtime files
+tmp/
+temp/
+*.pid
+*.seed
+*.pid.lock
+
+# Uploads (if backend stores files locally)
+uploads/
+
+# Frontend specific
+frontend/.eslintcache
+frontend/.parcel-cache
+
+# Backend specific
+backend/logs/
